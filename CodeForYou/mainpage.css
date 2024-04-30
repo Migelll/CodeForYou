@@ -1,0 +1,66 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgb(179, 54, 54);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-form{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.this-button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#img{
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.image-text{
+    text-align: center;
+    
+}
+
+.image-text > h4{
+    text-align: center;
+    margin: 20px 0px -50px 0px;
+    font-size: 35px;
+    
+}
+.yes-btn, .no-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin: 80px 10px 0px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btn1{
+    background-color: green;
+}
+#btn2{
+    background-color: rgb(196, 4, 4);
+}
+#btn1:hover{
+    background-color: rgb(22, 156, 22);
+}
+#btn2:hover{
+    background-color: rgb(255, 0, 0);
+}
+.audios{
+    position: absolute;
+    visibility: hidden;
+}

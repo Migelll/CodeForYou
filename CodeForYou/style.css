@@ -1,0 +1,106 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(179, 54, 54);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Name-form{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
+.Name-form h1{
+    color: rgb(0,0,0,1);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: auto;
+}
+.Name-form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 30px;
+}
+h5{
+    color: rgb(179, 54, 54);
+    margin: 20px 0px -5px 55px;
+}
+.Name-form input{
+    height: 50px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px 0.1px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin-top: -100px;
+    background-color: rgb(179, 54, 54);
+    color: #ffff;
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+}
+.Name-form button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(179, 54, 54);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.Name-form button:hover{
+    background-color: red;
+}
+.hearts{
+    margin-left: 15px;
+    display: flex;
+}
+.hearts > #heart1{
+    font-size: 80px;
+    margin-right: 10px;
+    color: red;
+    animation: beat .45s infinite alternate;
+    transform-origin: center;
+}
+.hearts > #heart2{
+    font-size: 100px;
+    color: red;
+    animation: beat .45s infinite alternate;
+    transform-origin: center;
+}
+.hearts > #heart3{
+    font-size: 80px;
+    margin-left: 10px;
+    color: red;
+    animation: beat .45s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+}
